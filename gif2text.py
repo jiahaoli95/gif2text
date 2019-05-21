@@ -16,8 +16,8 @@ def get_chinese_chars():
 
 def is_ascii(s):
     try:
-        s.decode('ascii')
-    except UnicodeDecodeError:
+        s.encode('ascii')
+    except UnicodeEncodeError:
         return False
     else:
         return True
