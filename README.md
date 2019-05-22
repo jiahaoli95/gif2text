@@ -40,7 +40,7 @@ python gif2text.py --gif_path=path/to/your/file.gif --out_path=path/to/your/outp
 ```
 Note that we used `--equalization=True` to increase the contrast of the resulting GIFs.
 
-## Note
+## Notes
 1. If you want to use characters other than ASCII or Chinese, you can just put all the characters into a `.txt` file, and use the `--charset=path/to/your/charset/file.txt` option to specify. You can also use such a `.txt` file to specify a subset of ASCII or Chinese characters, or a mix of them, to be used.
 2. If you use `--grayscale=True`, it is recommended to use `--equalization=True` to increase the constrast. Otherwise, the pattern in the text animations may be hard to distinguish.
 3. Sometimes you may want to use `--denoise=True` to reduce the noise due to downsampling. But this will potentially get rid of some important fine details, so it is set to `False` by default.
