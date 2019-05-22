@@ -200,6 +200,7 @@ if __name__ == '__main__':
             im = np.array(im, dtype=np.uint8)
             im_list[i] = im
     # set charset
+    opts.charset = opts.charset.lower()
     if opts.charset == 'ascii':
         chars = get_ascii_chars()
     elif opts.charset == 'chinese':
