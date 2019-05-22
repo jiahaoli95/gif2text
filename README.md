@@ -18,7 +18,8 @@ A tool for generating text animations from animated GIFs
 4. Users can specify their own set of characters to be shown, instead of randomly sampled characters from ASCII or Chinese characters.
 
 ## Requirements
-The packages required are numpy, pillow, tqdm, imageio. You can install them all using `pip install numpy pillow tqdm imageio`.
+The packages required are numpy, pillow, tqdm, imageio.
+You can install them all using `pip install numpy pillow tqdm imageio`.
 
 ## Usage
 The simplest usage is to run the following command
