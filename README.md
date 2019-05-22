@@ -19,6 +19,7 @@ A tool for generating text animations from animated GIFs
 
 ## Requirements
 The packages required are numpy, pillow, tqdm, imageio.
+
 You can install them all using `pip install numpy pillow tqdm imageio`.
 
 ## Usage
