@@ -44,5 +44,5 @@ Note that we used `--equalization=True` to increase the contrast of the resultin
 1. If you want to use characters other than ASCII or Chinese, you can just put all the characters into a `.txt` file, and use the `--charset=path/to/your/charset/file.txt` option to specify. You can also use such a `.txt` file to specify a subset of ASCII or Chinese characters, or a mix of them, to be used.
 2. If you use `--grayscale=True`, it is recommended to use `--equalization=True` to increase the constrast. Otherwise, the pattern in the text animations may be hard to distinguish.
 3. Sometimes you may want to use `--denoise=True` to reduce the noise due to downsampling. But this will potentially get rid of some important fine details, so it is set to `False` by default.
-4. You can use `--reverse_color` to reverse the colors (or intensities for grayscale) before conversion. This may help if you want to make a dark part white or a bright part dark.
+4. You can use `--reverse_color=True` to reverse the colors (or intensities for grayscale) before conversion. This may help if you want to make a dark part white or a bright part dark.
 5. I do not do any optimization to compress the file size of the output GIF, so it may be a bit large for Internet transfer. You can you use other tools such as `ImageMagick` to reduce the file size.
